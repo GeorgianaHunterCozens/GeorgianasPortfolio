@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Georgiana Hunter-CozensL Course</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Josefin+Sans|Pacifico|Quicksand|Righteous" rel="stylesheet">
+</head>
+<body>
+  <div id="header">
+  <div class="container">
+    <a id="header-title" href="index.html">Homepage</a>
+    <ul id="header-nav">
+      <li><a href="about.html">About me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="CV.html">CV</a></li>
+      <li id="dropdown"> University
+        <ul id="submenu">
+          <a href="university.html">University of Bath</a>
+          <a href="course.html">Course</a>
+          <a href="extracurricular.html">Extracurricular</a>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+  <div id="content"></div>
+  <div class="container"></div>
+  <div id="footer">
+  <div class="container">
+  <div class="column">
+    <h4>My links</h4>
+    <p>
+      <a href="contact.html">Contact</a>
+      <br>
+      <a href="sitemap.html">Sitemap</a>
+      <br>
+      <a href="about.html">About me</a>
+    </p>
+  </div></div></div>
+
+<script>
+
+$('#header-nav ul li').hover(function () {
+  $(this).children('ul').stop(true, false,true).slideToggle(300);
+});
+
+</script>
+
+</body>
+
+</html>
