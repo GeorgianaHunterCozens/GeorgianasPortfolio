@@ -3,7 +3,6 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Pacifico', cursive;
 font-family: 'Berkshire Swash', cursive;
 font-family: 'Righteous', cursive;*/
-
 body {
   color: #555;
   margin: 0;
@@ -97,6 +96,13 @@ padding: 2px 0px 2px 0px;
 }
 #footer p {
   color: white;
+  font-family:'Quicksand', sans-serif;
+}
+#footer a {
+  color: white;
+}
+#footer a:hover {
+  color: rgb(115, 228, 251);
 }
 .column {
   min-width: 300px;
